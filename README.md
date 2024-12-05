@@ -1,4 +1,5 @@
-## Инструмент командной строки для визуализации графа зависимостей
+# Инструмент командной строки для визуализации графа зависимостей
+
 ## Описание
 * Проект представляет собой визуализатор зависимостей, реализованный на Python.
 * Зависимости определяются по имени пакета языка Python (pip).
@@ -24,13 +25,13 @@ dot -Tpng dependencies_graph.dot -o dependencies.png
 
 ### Пример работы программы
 
-![Запуск программы](https://github.com/ART3RY-G1N/Dependencies_Graph_Visualizer/blob/main/Снимок%20экрана%202024-12-05%20212952.png)
+![Запуск программы](https://github.com/ART3RY-G1N/Dependencies_Graph_Builder/blob/master/Снимок%20экрана%202024-12-05%20212952.png)
 
 ### Тестирование
 python -m unittest shell_emulator.py
 
-![Тестирование](https://github.com/ART3RY-G1N/Dependencies_Graph_Visualizer/blob/main/Снимок%20экрана%202024-12-05%20213339.png)
+![Тестирование](https://github.com/ART3RY-G1N/Dependencies_Graph_Builder/blob/master/Снимок%20экрана%202024-12-05%20213339.png)
 
 ### Результат работы программы
 
-![Тестирование](https://github.com/ART3RY-G1N/Dependencies_Graph_Visualizer/blob/main/dependencies.png)
+![Тестирование](https://github.com/ART3RY-G1N/Dependencies_Graph_Builder/blob/master/dependencies.png)
